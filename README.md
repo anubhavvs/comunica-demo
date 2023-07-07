@@ -16,7 +16,7 @@ You will need to have a local database running which can host the [LinkedMDB dat
     npm run start
     ```
 
-2. Star the client
+2. Start the client
 
     ```unix
     npm install
