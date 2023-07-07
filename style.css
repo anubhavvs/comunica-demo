@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 100vh;
+}
+
+.data-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.box {
+  flex: 1;
+  text-align: center;
+  padding: 40px 0px;
+  border: 1px solid white;
+}
+
+.value_text {
+  font-size: 1.2rem;
+}
+
+.value_number {
+  font-size: 2rem;
+  color: white;
+  letter-spacing: 2px;
+}
+
+#graph {
+  flex-grow: 1;
+  max-height: 600px;
+  display: flex;
+  justify-content: center;
+}
+
+#search {
+  align-content: center;
+  margin: 3% 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+#submit {
+  color: #242424;
+  background-color: rgba(255, 255, 255, 0.87);
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 15px;
+  border-radius: 20px;
+}
+#search_field {
+  border: none;
+  outline: none;
+  font-size: 20px;
+  padding: 0px 15px;
+  border-radius: 20px;
+}

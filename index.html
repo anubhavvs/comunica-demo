@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+</head>
+
+<body>
+  <div id="app">
+    <div class="data-container">
+      <div class="box" id="films">
+        <span class="value_text">Total Number of Movies</span>
+        <p class="value_number" id="movie_target"></p>
+      </div>
+      <div class="box" id="actors">
+        <span class="value_text">Total Number of Actors</span>
+        <p class="value_number" id="actor_target"></p>
+      </div>
+      <div class="box" id="directors">
+        <span class="value_text">Total Number of Directors</span>
+        <p class="value_number" id="director_target"></p>
+      </div>
+      <div class="box" id="genres">
+        <span class="value_text">Total Number of Genres</span>
+        <p class="value_number" id="genre_target"></p>
+      </div>
+    </div>
+    <div id="search">
+      <input type="text" name="searchbox" id="search_field" placeholder="Search by an actor" value="">
+      <button type="submit" id="submit">Search</button>
+    </div>
+    <div id="title">
+    </div>
+    <div id="graph"></div>
+  </div>
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
